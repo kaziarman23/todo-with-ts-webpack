@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "es5",   // Set the target ECMAScript version
+        "module": "commonjs", // Specify the module system (CommonJS here)
+        "strict": true,      // Enable strict type checking
+        "outDir": "dist",    // Output compiled JavaScript to the "dist" folder
+        "allowJs": true,      // Allow compiling plain JavaScript files
+        "sourceMap": true    // Generate source maps for debugging
+    },
+    "include": ["src"] // Include all TypeScript files in the "src" directory for compilation
+}
